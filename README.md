@@ -7,3 +7,4 @@ This repo is a personal project for the creation of a profile website to aid in 
 3. Change to my domain name
 4. Test possibility of moving to React
 5. Update design
+6. Update project file structuring
