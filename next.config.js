@@ -85,5 +85,8 @@ module.exports = () => {
       loader: 'akamai',
       path: '',
     },
+    nextConfig: {
+      basePath: '/Loc-1.github.io'
+    },
   })
 }
