@@ -2,7 +2,7 @@ import SocialIcon from '@/components/social-icons'
 import Image from '@/components/Image'
 import { PageSEO } from '@/components/SEO'
 export default function AuthorLayout({ children, content }) {
-  const { name, avatar, occupation, company, email, twitter, linkedin, github } = content
+  const { name, avatar, occupation, company, email, twitter, linkedin, github, instagram } = content
   return (
     <>
       <PageSEO title={`About - ${name}`} description={`About me - ${name}`} />
@@ -28,6 +28,7 @@ export default function AuthorLayout({ children, content }) {
               <SocialIcon kind="mail" href={`mailto:${email}`} />
               <SocialIcon kind="github" href={github} />
               <SocialIcon kind="linkedin" href={linkedin} />
+              <SocialIcon king="instagram" href={instagram}/>
               <SocialIcon kind="twitter" href={twitter} />
             </div>
           </div>

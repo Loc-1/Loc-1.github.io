@@ -2,7 +2,10 @@
   "name": "starter-blog",
   "version": "0.0.1",
   "private": true,
+  "homepage": "https://Loc-1.github.io/Loc-1.github.io",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "next dev",
     "dev": "cross-env INIT_CWD=$PWD next dev",
     "build": "cross-env INIT_CWD=$PWD next build && cross-env NODE_OPTIONS='--experimental-json-modules' node -r esbuild-register ./scripts/postbuild.mjs",
@@ -59,6 +62,7 @@
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
     "file-loader": "^6.0.0",
+    "gh-pages": "^5.0.0",
     "globby": "11.0.3",
     "husky": "^8.0.0",
     "js-yaml": "4.1.0",

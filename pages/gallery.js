@@ -1,21 +1,20 @@
-import { useState } from "react";
-
+import { useState } from 'react'
 import siteMetadata from '@/data/siteMetadata'
 import photos from '@/data/photoData'
-import PhotoAlbum from "react-photo-album"
-import Lightbox from "yet-another-react-lightbox"
-import "yet-another-react-lightbox/styles.css"
+import PhotoAlbum from 'react-photo-album'
+import Lightbox from 'yet-another-react-lightbox'
+import 'yet-another-react-lightbox/styles.css'
 import { PageSEO } from '@/components/SEO'
-import Thumbnails from "yet-another-react-lightbox/plugins/thumbnails";
-import "yet-another-react-lightbox/plugins/thumbnails.css";
+import Thumbnails from 'yet-another-react-lightbox/plugins/thumbnails'
+import 'yet-another-react-lightbox/plugins/thumbnails.css'
 
 export default function Gallery() {
-  const [index, setIndex] = useState(-1);
-  const slides = photos.map(({ src, width, height, images }) => ({
+  const [index, setIndex] = useState(-1)
+  const slides = photos.map(({ src, width, height }) => ({
     src,
     width,
-    height
-  }));
+    height,
+  }))
   return (
     <>
       <PageSEO title={`Gallery - ${siteMetadata.author}`} description={siteMetadata.description} />
