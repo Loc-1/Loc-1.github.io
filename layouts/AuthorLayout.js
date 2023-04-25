@@ -1,5 +1,7 @@
 import SocialIcon from '@/components/social-icons'
 import Image from '@/components/Image'
+import Experience from '@/components/Experience'
+import experienceData from '@/data/experienceData'
 import { PageSEO } from '@/components/SEO'
 export default function AuthorLayout({ children, content }) {
   const { name, avatar, occupation, company, email, twitter, linkedin, github, instagram } = content
@@ -28,11 +30,33 @@ export default function AuthorLayout({ children, content }) {
               <SocialIcon kind="mail" href={`mailto:${email}`} />
               <SocialIcon kind="github" href={github} />
               <SocialIcon kind="linkedin" href={linkedin} />
-              <SocialIcon king="instagram" href={instagram}/>
+              <SocialIcon king="instagram" href={instagram} />
               <SocialIcon kind="twitter" href={twitter} />
             </div>
           </div>
           <div className="prose max-w-none pb-8 pt-8 dark:prose-dark xl:col-span-2">{children}</div>
+        </div>
+        <div className="mt-10">
+          <div className="pt-6 pb-8 space-y-2 md:space-y-5">
+            <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
+              Experience
+            </h1>
+          </div>
+          <div className="pt-8 pb-8 max-w-none xl:col-span-2">
+            {experienceData.map((d) => (
+              <Experience
+                key={d.company}
+                title={d.title}
+                company={d.company}
+                location={d.location}
+                range={d.range}
+                url={d.url}
+                text1={d.text1}
+                text2={d.text2}
+                text3={d.text3}
+              />
+            ))}
+          </div>
         </div>
       </div>
     </>

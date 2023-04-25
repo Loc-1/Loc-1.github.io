@@ -2,7 +2,7 @@
 
 /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
-  title: 'Next.js Portfoilo and Blog',
+  title: 'Hia, ♫•♬',
   author: 'Lachlan Moore',
   headerTitle: 'Loc1`s Blog',
   description: 'A blog/portfolio created with Next.js and Tailwind.css',

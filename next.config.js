@@ -82,8 +82,7 @@ module.exports = () => {
       return config
     },
     images: {
-      loader: 'akamai',
-      path: '',
+      unoptimized: true,
     },
     nextConfig: {
       basePath: '/Loc-1.github.io'
