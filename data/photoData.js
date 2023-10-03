@@ -1,4 +1,4 @@
-const photos = [
+export const photosA = [
     { src: "/static/images/March-April/01.jpg", width: 1818, height: 1228},
     { src: "/static/images/March-April/02.jpg", width: 1818, height: 1228},
     { src: "/static/images/March-April/03.jpg", width: 1818, height: 1228},
@@ -24,5 +24,39 @@ const photos = [
     { src: "/static/images/March-April/23.jpg", width: 1228, height: 1818},
 ]
 
-
-export default photos;
+export const photosF = [
+    {src: "/static/images/August-2023/2023_0811_15325500.jpg", width: 1818, height: 1228},
+    {src: "/static/images/August-2023/2023_0811_15330100.jpg", width: 1818, height: 1228},
+    {src: "/static/images/August-2023/2023_0811_15330700.jpg", width: 1228, height: 1818},
+    {src: "/static/images/August-2023/2023_0811_15331200.jpg", width: 1818, height: 1228},
+    {src: "/static/images/August-2023/2023_0811_15331800.jpg", width: 1818, height: 1228},
+    {src: "/static/images/August-2023/2023_0811_15332900.jpg", width: 1818, height: 1228},
+    {src: "/static/images/August-2023/2023_0811_15333400.jpg", width: 1818, height: 1228},
+    {src: "/static/images/August-2023/2023_0811_15334700.jpg", width: 1818, height: 1228},
+    {src: "/static/images/August-2023/2023_0811_15335200.jpg", width: 1818, height: 1228},
+    {src: "/static/images/August-2023/2023_0821_13414000.jpg", width: 1818, height: 1228},
+    {src: "/static/images/August-2023/2023_0821_13414900.jpg", width: 1818, height: 1228},
+    {src: "/static/images/August-2023/2023_0821_13415500.jpg", width: 1818, height: 1228},
+    {src: "/static/images/August-2023/2023_0821_13421400.jpg", width: 1818, height: 1228},
+    {src: "/static/images/August-2023/2023_0821_13422100.jpg", width: 1818, height: 1228},
+    {src: "/static/images/August-2023/2023_0821_13422700.jpg", width: 1818, height: 1228},
+    {src: "/static/images/August-2023/2023_1002_10201200.jpg", width: 1228, height: 1818},
+    {src: "/static/images/August-2023/2023_1002_10222700.jpg", width: 1818, height: 1228},
+    {src: "/static/images/August-2023/2023_1002_10254600.jpg", width: 1228, height: 1818},
+    {src: "/static/images/August-2023/2023_1002_10255300.jpg", width: 1818, height: 1228},
+    {src: "/static/images/August-2023/2023_1002_10331600.jpg", width: 1818, height: 1228},
+    {src: "/static/images/August-2023/2023_1002_10403800.jpg", width: 1228, height: 1818},
+    {src: "/static/images/August-2023/2023_1002_10405100.jpg", width: 1818, height: 1228},
+    {src: "/static/images/August-2023/2023_1002_10405700.jpg", width: 1818, height: 1228},
+    {src: "/static/images/August-2023/2023_1002_10410600.jpg", width: 1818, height: 1228},
+    {src: "/static/images/August-2023/2023_1002_12190500.jpg", width: 1818, height: 1228},
+    {src: "/static/images/August-2023/2023_1002_12210100.jpg", width: 1818, height: 1228},
+    {src: "/static/images/August-2023/2023_1002_12211200.jpg", width: 1818, height: 1228},
+    {src: "/static/images/August-2023/2023_1002_12283400.jpg", width: 1818, height: 1228},
+    {src: "/static/images/August-2023/2023_1002_12381200.jpg", width: 1818, height: 1228},
+    {src: "/static/images/August-2023/2023_1002_12381800.jpg", width: 1818, height: 1228},
+    {src: "/static/images/August-2023/2023_1002_12401500.jpg", width: 1228, height: 1818},
+    {src: "/static/images/August-2023/2023_1002_12474500.jpg", width: 1818, height: 1228},
+    {src: "/static/images/August-2023/2023_1002_12554200.jpg", width: 1818, height: 1228},
+    {src: "/static/images/August-2023/2023_1002_13033100.jpg", width: 1818, height: 1228},
+]

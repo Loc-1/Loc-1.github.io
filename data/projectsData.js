@@ -11,5 +11,11 @@ const projectsData = [
     imgSrc: '/static/images/pumpit.png',
     href: 'https://workout-db-b444f.web.app/',
   },
+  {
+    title: 'Unity: Project Bee',
+    description: `Learning how to use Unity, rouge like generation of dungeons with a boss.`,
+    imgSrc: '/static/images/bee_v_16x16.png',
+    href: 'https://github.com/Loc-1/ProjectBee',
+  },
 ]
 export default projectsData

@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import siteMetadata from '@/data/siteMetadata'
-import photos from '@/data/photoData'
+import {photosA, photosF} from '@/data/photoData'
 import PhotoAlbum from 'react-photo-album'
 import Lightbox from 'yet-another-react-lightbox'
 import 'yet-another-react-lightbox/styles.css'
@@ -10,7 +10,7 @@ import 'yet-another-react-lightbox/plugins/thumbnails.css'
 
 export default function Gallery() {
   const [index, setIndex] = useState(-1)
-  const slides = photos.map(({ src, width, height }) => ({
+  const slides1 = photosA.map(({ src, width, height }) => ({
     src,
     width,
     height,
@@ -32,9 +32,20 @@ export default function Gallery() {
             <p className="divide-y text-2xl leading-7 text-gray-500 dark:text-gray-400">
               Asahi Pentax K1000
             </p>
-            <PhotoAlbum photos={photos} layout="rows" targetRowHeight={150} onClick={({ index }) => setIndex(index)} />
+            <PhotoAlbum photos={photosA} layout="rows" targetRowHeight={150} onClick={({ index }) => setIndex(index)} />
             <Lightbox
-                slides={slides}
+                slides={slides1}
+                open={index >= 0}
+                index={index}
+                close={() => setIndex(-1)}
+                plugins={[Thumbnails]}
+            />
+            <p className="divide-y text-2xl leading-7 text-gray-500 dark:text-gray-400">
+              Fujifilm X100F
+            </p>
+            <PhotoAlbum photos={photosF} layout="rows" targetRowHeight={150} onClick={({ index }) => setIndex(index)} />
+            <Lightbox
+                slides={slides1}
                 open={index >= 0}
                 index={index}
                 close={() => setIndex(-1)}

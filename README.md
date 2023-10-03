@@ -6,8 +6,7 @@ This repo is a personal project for the creation of a profile website to aid in 
 Started blog and portfoilo from Next.js from this template https://vercel.com/templates/next.js/tailwind-css-starter-blog
 
 # TODO
-1. Update all infromation to current - add experience to about
-2. New formatting
-3. Add all projects
-4. New logo
-5. Firebase
+1. Update all infromation to current
+2. Add all projects - Project B web hosting, random js projects, etc.
+3. New logo
+4. Firebase
