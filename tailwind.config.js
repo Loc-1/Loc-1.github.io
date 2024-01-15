@@ -9,7 +9,7 @@ module.exports = {
     '../node_modules/pliny/**/*.{js,ts,tsx}',
     './node_modules/pliny/**/*.{js,ts,tsx}',
     './app/**/*.{js,ts,jsx,tsx}',
-    './pages/**/*.{js,ts,tsx}',
+    './pages/**/*.{js,ts,tsx,html}',
     './components/**/*.{js,ts,tsx}',
     './layouts/**/*.{js,ts,tsx}',
     './lib/**/*.{js,ts,tsx}',

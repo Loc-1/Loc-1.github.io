@@ -1,5 +1,11 @@
 const projectsData = [
   {
+    title: 'Homework in Advanced Computer Graphics',
+    description: `Collection of homeworks done for Advanced Computer Graphics course at Waseda University. Mainly using WebGL and graphics shaders.`,
+    imgSrc: '/static/images/WebGL_Logo.svg',
+    href: '/graphics',
+  },
+  {
     title: 'Research Project: Networks & Distributed Systems',
     description: `Research project done in the last semester of my Undergraduate degree, following the measurement of network traffic of YouTube Music and Spotifiy in the context of a campus network. Made use of a campus capture card and wireshark`,
     imgSrc: '/static/images/spotify.png',
