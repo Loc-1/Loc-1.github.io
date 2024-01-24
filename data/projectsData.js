@@ -3,7 +3,7 @@ const projectsData = [
     title: 'Homework in Advanced Computer Graphics',
     description: `Collection of homeworks done for Advanced Computer Graphics course at Waseda University. Mainly using WebGL and graphics shaders.`,
     imgSrc: '/static/images/WebGL_Logo.svg',
-    href: '/graphics',
+    href: 'https://github.com/Loc-1/Advanced-Graphics-Assignments',
   },
   {
     title: 'Research Project: Networks & Distributed Systems',
