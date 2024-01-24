@@ -6,11 +6,11 @@ This repo is a personal project for the creation of a profile website to aid in 
 Started blog and portfoilo from Next.js from this template https://vercel.com/templates/next.js/tailwind-css-starter-blog
 
 ## Update 2024-01-24
-Added Selected work section
+Added Selected work section and Advanced Computer Graphics assignments
 
 ###TODO
-[] Fix formatting for selected work section
-[] Fix bug with gallery
-[] Add db storage
-[] Find better design for project images - maybe photoshop custom ones
-[] Improve profile section writing and presentation
+- [] Fix formatting for selected work section
+- [] Fix bug with gallery
+- [] Add db storage
+- [] Find better design for project images - maybe photoshop custom ones
+- [] Improve profile section writing and presentation
