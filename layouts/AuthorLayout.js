@@ -2,6 +2,8 @@ import SocialIcon from '@/components/social-icons'
 import Image from '@/components/Image'
 import Experience from '@/components/Experience'
 import experienceData from '@/data/experienceData'
+import Paper from '@/components/Paper'
+import paperData from '@/data/paperData'
 import { PageSEO } from '@/components/SEO'
 export default function AuthorLayout({ children, content }) {
   const { name, avatar, occupation, company, email, twitter, linkedin, github, instagram } = content
@@ -54,6 +56,26 @@ export default function AuthorLayout({ children, content }) {
                 text1={d.text1}
                 text2={d.text2}
                 text3={d.text3}
+              />
+            ))}
+          </div>
+        </div>
+        <div className="mt-10">
+          <div className="pt-6 pb-8 space-y-2 md:space-y-5">
+            <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
+              Selected Works
+            </h1>
+          </div>
+          <div className="pt-8 pb-8 max-w-none xl:col-span-2">
+            {paperData.map((d) => (
+              <Paper
+                key={d.title}
+                title={d.title}
+                author={d.author}
+                conference={d.conference}
+                year={d.year}
+                url={d.url}
+                page={d.page}
               />
             ))}
           </div>
