@@ -8,9 +8,9 @@ Started blog and portfoilo from Next.js from this template https://vercel.com/te
 ## Update 2024-01-24
 Added Selected work section and Advanced Computer Graphics assignments
 
-###TODO
-- [] Fix formatting for selected work section
-- [] Fix bug with gallery
-- [] Add db storage
-- [] Find better design for project images - maybe photoshop custom ones
-- [] Improve profile section writing and presentation
+### TODO
+- [ ] Fix formatting for selected work section
+- [ ] Fix bug with gallery
+- [ ] Add db storage
+- [ ] Find better design for project images - maybe photoshop custom ones
+- [ ] Improve profile section writing and presentation
